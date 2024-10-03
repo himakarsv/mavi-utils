@@ -1,6 +1,6 @@
 {
   "name": "mavi-utils",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A comprehensive utility library providing string manipulation, mathematical calculations, file system helpers, validation, and random data generation.",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/himakarsv/mavi-utils#readme",
   "dependencies": {
-    "csv-parse": "^5.5.6"
+    "csv-parse": "^5.5.6",
+    "csv-stringify": "^6.5.1"
   }
 }

@@ -1,6 +1,6 @@
 const fs = require("fs");
-const parse = require("csv-parse/lib/sync"); // You can use the csv-parse package
-const { stringify } = require("csv-stringify/sync");
+const { parse } = require("csv-parse");
+const { stringify } = require("csv-stringify");
 
 function readFile(filePath) {
   return fs.readFileSync(filePath, "utf-8");
