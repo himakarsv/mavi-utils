@@ -1,12 +1,25 @@
 {
   "name": "mavi-utils",
   "version": "1.0.0",
-  "description": "",
+  "description": "A comprehensive utility library providing string manipulation, mathematical calculations, file system helpers, validation, and random data generation.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
-  "keywords": [],
-  "author": "D.S.V.Himakar",
-  "license": "ISC"
+  "keywords": [
+    "utilities",
+    "string",
+    "math",
+    "file-system",
+    "validation",
+    "random-data",
+    "helper-functions"
+  ],
+  "author": "D.S.V.Himakar dsvhimakar@gmail.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/himakarsv/mavi-utils.git"
+  },
+  "homepage": "https://github.com/himakarsv/mavi-utils#readme"
 }
